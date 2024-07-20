@@ -141,7 +141,7 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* ---------------services----------------- */
+/* ---------------interest----------------- */
 #services{
     padding: 30px o;
 }
@@ -290,13 +290,14 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
 }
-/* .social-icons a img{
+.social-icons a img{
     /* text-decoration: none; */
     /* font-size: 30px; */
-    /* margin-right: 5px; */
+    margin-right: 3px;
     /* color: #ababab; */
     /* display: inline-block; */
-*/
+}
+
 .social-icons a:hover{
     color: #ff004f;
     transform: translate(-5px);
