@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha Nigam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3bd4841855.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interests</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="mob fa-regular fa-rectangle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="mob fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Sophomore@NITP</p>
+                <h1>Hi, I'm <span>Akanksha<br></span>Nigam From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Akanksha Nigam, currently pursuing  B.Tech in Computer Science and Engineering at NITP. I am proficient in programming languages such as C, C++, Python, HTML, CSS, and JavaScript. My passion lies in exploring the realms of machine learning and mastering data structures and algorithms.<br><br>
+
+                        In addition to my academic pursuits, I am actively involved in competitive programming, continuously sharpening my problem-solving skills. I also love taking part in hackathons, where I enjoy tackling real-world challenges and creating innovative solutions through programming.<br><br>
+                        
+                        Feel free to explore my portfolio to see examples of my projects and learn more about my journey into the world of technology and programming. <br><br> </p>
+                        <!-- three tabs -->
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <!-- ---skills--- -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>
+                                    C,C++,Javascript,Python</li>
+                                <li><span>Frontend Development</span><br>
+                                    HTML,CSS</li>
+                                <li><span>AI/ML</span><br>
+                                     Numpy,Pandas,Seaborn</li>
+                                <li><span>Database</span><br>
+                                        MySQL</li>
+                                        
+                                            
+                            </ul>
+                        </div>
+                        <!-- ---experience---- -->
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024-Present</span><br>
+                                    Web Team Member @ExpressoNITP</li>
+                               
+                            </ul>
+                        </div>
+                        <!-- ----education--- -->
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2023-27</span><br>
+                                    <b>B.Tech-CSE</b><br>
+                                    National Institute of Technology,Patna</li>
+                                <li><span>2022-23</span><br>
+                                    <b>Higher Secondary Education</b><br>
+                                    K.V.S<br>Grade-93.0%</li>
+                                <li><span>2020-21</span><br>
+                                    <b>Matriculation</b><br>
+                                    K.V.S.<br>Grade-98.6%</li>
+                                
+                                        
+                                            
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------interest---------- -->
+<div id="services">
+    <div class="container">
+        <i class="fa-solid fa-code"></i>
+        <h1 class="sub-title">My Interest</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-lightbulb" ></i>
+                <h2>Data Structures and algorithms</h2><br>
+                <p>As a second year Computer Science and Engineering student at NIT Patna, I am deeply passionate about the realms of data structures and algorithms.</p>
+
+                <!-- <a href="https://github.com/GAMAKANK/DSA-with-Cpp">See the details on github</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple" ></i>
+                <h2>Machine learning</h2>
+                <p>I'm fascinated by the potential of machine learning to transform our daily lives. I often find myself wondering: how can we harness the power of ML to tackle the everyday problems that plague us?  I believe that machine learning holds the key to unlocking a brighter, more efficient future.</p>
+                <!-- <a href="https://gamakank.github.io/Hackslash-Web/">See my project</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-globe" ></i>
+                <h2>Web Development</h2><br>
+                <p>I've come to realize that backend is only half the story. A comprehensive understanding of the frontend is equally crucial in bringing innovative solutions to life. That's why I'm also drawn to the frontend, and I'm eager to delve deeper into its intricacies. </p>
+                <!-- <a href="https://expressonitp.vercel.app/">See the website</a> -->
+            </div>
+            
+           
+            
+            
+        </div>
+    </div>
+</div>
+
+<!-- --------------portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/hackOfest.jpeg" >
+                    <div class="layer">
+                        <h3>Vocal Vigilance: Empowering women through Street Sound Detection</h3>
+                        <p>Women harassment cases are on the rise, especially in isolated areas with low foot traffic, late at night or early in the morning. Current solutions like police patrolling and CCTV cameras have limitations.<br>So, we made a new solution for it.</p>
+                        <a href="https://github.com/GAMAKANK/Tech-O-Wizard"> <i class="fa-solid fa-arrow-up-right-from-square" style="color: #ff004f;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/expresso.JPG" >
+                    <div class="layer">
+                        <h3>ExpressoNITP Website</h3>
+                        <p>I had the opportunity to work on ExpressoNITP Website, under the guidance of my seniors and support of my team. </p>
+                        <a href="https://github.com/expressonitp/expresso_website"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ff004f;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ml.JPG" >
+                    <div class="layer">
+                        <h3>Titanic Dataset Analysis</h3>
+                        <p>This is a machine learning project that predicts whether a passenger aboard the Titanic will survive or not.</p>
+                        <a href="https://github.com/GAMAKANK/Titanic-Dataset-Analysis"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ff004f;"></i></a>
+                    </div>
+
+
+                </div>
+            </div>
+            <a href="https://github.com/GAMAKANK" class="btn">See More</a>
+    </div>
+
+</div>
+
+
+<!-- --------------contact-------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane" style="color: #ff004f;"></i>akankshanigam158@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/akanksha-nigam-5a70012ab/"><i class="fa-brands fa-linkedin" ></i></a>
+
+                    <a href="https://www.codechef.com/users/nigam_1aka"><img src="images/codechef.png" style="height: 25px;"></a>
+
+                    <a href="https://codeforces.com/profile/Sam_Nigam79"><img src="images/codeforces.JPG" ;"></a>
+
+                    <a href="https://leetcode.com/u/akanksh799work/"><img src="images/leetcode.JPG" ></a>
+
+                    <a href="https://www.geeksforgeeks.org/user/akankshan8mql/"><img src="images/gfg.JPG" ></a>
+
+                    <a href="https://www.instagram.com/akankshanigam217?igsh=MWtoeDV1c3lub2E5eA%3D%3D"><i class="fa-brands fa-square-instagram" ></i></a>
+                </div>
+<!-- ---------------add cv in href---- -->
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows=6 placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Kevin. Made with <i class="fa-solid fa-heart"></i> by Akanksha Nigam</p>
+    </div>
+ </div>
+
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script> 
+ 
+ <script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
+ </script>
+
+<!-- <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form> -->
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7AHxZ5Kg-TJMSkQbY0cZKCoE8HthH4mSad1y82laM_q8s_HjvQAfOt04J-gcj01cV/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
